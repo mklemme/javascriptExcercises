@@ -21,7 +21,7 @@ var foods = [
             ];
 
 var dislike = foods.indexOf("Donuts");
-console.log(dislike);
+console.log("Donut has the index of " + dislike);
 
 foods.splice(dislike,1);
 console.log(foods);
