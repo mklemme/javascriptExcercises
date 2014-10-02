@@ -21,6 +21,9 @@ var foods = [
             ];
 
 var dislike = foods.indexOf("Donuts");
+console.log(dislike);
 
-var favFoods = foods.splice(dislike,1);
-console.log(favFoods);
+foods.splice(dislike,1);
+console.log(foods);
+
+
